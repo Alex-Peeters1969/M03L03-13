@@ -1,0 +1,54 @@
+body{
+  background-color: lightgray;
+  margin: 0px;
+  padding: 0px;
+}
+.mainbtn {
+  display: none;
+  list-style: none;
+  width: 100px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainbtn.toggleCls {
+  display: block;
+}
+
+.menubtn {
+  width: 60px; 
+  cursor: pointer; 
+}
+
+.menubtn :hover {
+  opacity: 0.5;
+}
+
+li {
+  width: 100px;
+  height: 30px;
+  padding-top: 15px;
+  text-align: center;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.home {
+  background-color: lightgray;  
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.pink {
+  background-color: pink;
+}
